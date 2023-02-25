@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 10px;
+  background-color: rgb(148, 148, 148);
+  max-width: 100%;
+  padding: 10px;
+}
+
+header {
+  height: 120px;
+  width: 100%;
+  border: 1px solid rgb(253, 199, 97);
+  background-color: linear-gradient(to right, #fff, #aaa, #555, #111);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+

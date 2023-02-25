@@ -15,10 +15,72 @@ header {
   height: 120px;
   width: 100%;
   border: 1px solid rgb(253, 199, 97);
-  background-color: linear-gradient(to right, #fff, #aaa, #555, #111);
+  background: linear-gradient(to right, #ffdcbf, #ffb45e);
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
+.left-menu {
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 
+.left-menu ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  padding: 20px;
+}
+
+.left-menu ul li {
+  font-size: 1rem;
+  padding: 4px;
+}
+
+.left-menu ul li a {
+  color: #000;
+}
+
+
+
+.title {
+  width: 650px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title p {
+  font-size: 3.5rem;
+}
+
+
+
+
+.right-menu {
+  width: 350px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.right-menu ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  padding-left: 150px;
+}
+
+.right-menu ul li {
+  font-size: 2rem;
+  padding: 4px;
+}
+
+.right-menu ul li a {
+  color: #000;
+}

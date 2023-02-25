@@ -13,7 +13,7 @@ body {
 
 header {
   height: 120px;
-  width: 100%;
+  width: 1300px;
   background: linear-gradient(to right, #ffdcbf, #ffb45e);
   display: flex;
   align-items: center;

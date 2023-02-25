@@ -14,7 +14,6 @@ body {
 header {
   height: 120px;
   width: 100%;
-  border: 1px solid rgb(253, 199, 97);
   background: linear-gradient(to right, #ffdcbf, #ffb45e);
   display: flex;
   align-items: center;

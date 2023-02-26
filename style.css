@@ -14,12 +14,16 @@ body {
 header {
   height: 120px;
   width: 100%;
-  border: 1px solid rgb(253, 199, 97);
-  background: linear-gradient(to right, #ffdcbf, #ffb45e);
+  border: 1px solid rgb(82, 54, 4);
+  border-radius: 5px;
+  background: linear-gradient(to right, #ffd9a0, #e6e6e6);
   display: flex;
   align-items: center;
   justify-content: space-between;
+  box-shadow: 1px 1px 2px rgba(0,0,0,0.25),
+        inset 1px 1px 2px rgba(0,0,0,0.75);
 }
+
 
 .left-menu {
   width: 350px;
@@ -37,12 +41,19 @@ header {
 }
 
 .left-menu ul li {
-  font-size: 1rem;
+  font-size: 1.2rem;
+  font-weight: 500;
   padding: 4px;
 }
 
 .left-menu ul li a {
+  text-decoration: none;
   color: #000;
+}
+
+.left-menu ul li a:hover {
+  color: #723d00;
+  text-decoration: underline;
 }
 
 
@@ -56,6 +67,7 @@ header {
 
 .title p {
   font-size: 3.5rem;
+  color:rgb(0, 0, 0)
 }
 
 
@@ -73,14 +85,22 @@ header {
   align-items: center;
   justify-content: space-between;
   list-style: none;
-  padding-left: 150px;
+  padding-left: 120px;
 }
 
 .right-menu ul li {
   font-size: 2rem;
-  padding: 4px;
+  padding: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .right-menu ul li a {
   color: #000;
+}
+
+.right-menu ul li a:hover {
+  color: var(--clr);
+  transition: 0.2s;
 }
